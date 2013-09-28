@@ -1,0 +1,333 @@
+info it worked if it ends with ok
+verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'install' ]
+info using npm@1.1.4
+info using node@v0.6.19
+verbose config file /home/bitardo/.npmrc
+verbose config file /usr/etc/npmrc
+verbose config file /usr/share/npm/npmrc
+verbose caching /home/bitardo/workspace/perso/chroot_presentation/package.json
+verbose loadDefaults reveal.js@2.5.0
+verbose readDependencies: using package.json deps
+verbose where, deps [ '/home/bitardo/workspace/perso/chroot_presentation',
+verbose where, deps   [ 'underscore',
+verbose where, deps     'express',
+verbose where, deps     'mustache',
+verbose where, deps     'socket.io',
+verbose where, deps     'grunt-contrib-jshint',
+verbose where, deps     'grunt-contrib-cssmin',
+verbose where, deps     'grunt-contrib-uglify',
+verbose where, deps     'grunt-contrib-watch',
+verbose where, deps     'grunt-contrib-sass',
+verbose where, deps     'grunt-contrib-connect',
+verbose where, deps     'grunt-zip',
+verbose where, deps     'grunt' ] ]
+verbose from cache /home/bitardo/workspace/perso/chroot_presentation/package.json
+info preinstall reveal.js@2.5.0
+verbose from cache /home/bitardo/workspace/perso/chroot_presentation/package.json
+verbose readDependencies: using package.json deps
+verbose cache add [ 'underscore@~1.3.3', null ]
+silly cache add: name, spec, args [ undefined, 'underscore@~1.3.3', [ 'underscore@~1.3.3', null ] ]
+verbose parsed url { pathname: 'underscore@~1.3.3',
+verbose parsed url   path: 'underscore@~1.3.3',
+verbose parsed url   href: 'underscore@~1.3.3' }
+silly cache add: name, spec, args [ 'underscore', '~1.3.3', [ 'underscore', '~1.3.3' ] ]
+verbose parsed url { pathname: '~1.3.3', path: '~1.3.3', href: '~1.3.3' }
+verbose addNamed [ 'underscore', '~1.3.3' ]
+verbose addNamed [ null, '>=1.3.3- <1.4.0-' ]
+silly name, range, hasData [ 'underscore', '>=1.3.3- <1.4.0-', false ]
+verbose raw, before any munging underscore
+verbose url resolving [ 'https://registry.npmjs.org/', './underscore' ]
+verbose url resolved https://registry.npmjs.org/underscore
+http GET https://registry.npmjs.org/underscore
+verbose cache add [ 'express@~2.5.9', null ]
+silly cache add: name, spec, args [ undefined, 'express@~2.5.9', [ 'express@~2.5.9', null ] ]
+verbose parsed url { pathname: 'express@~2.5.9',
+verbose parsed url   path: 'express@~2.5.9',
+verbose parsed url   href: 'express@~2.5.9' }
+silly cache add: name, spec, args [ 'express', '~2.5.9', [ 'express', '~2.5.9' ] ]
+verbose parsed url { pathname: '~2.5.9', path: '~2.5.9', href: '~2.5.9' }
+verbose addNamed [ 'express', '~2.5.9' ]
+verbose addNamed [ null, '>=2.5.9- <2.6.0-' ]
+silly name, range, hasData [ 'express', '>=2.5.9- <2.6.0-', false ]
+verbose cache add [ 'mustache@~0.4.0', null ]
+silly cache add: name, spec, args [ undefined, 'mustache@~0.4.0', [ 'mustache@~0.4.0', null ] ]
+verbose parsed url { pathname: 'mustache@~0.4.0',
+verbose parsed url   path: 'mustache@~0.4.0',
+verbose parsed url   href: 'mustache@~0.4.0' }
+silly cache add: name, spec, args [ 'mustache', '~0.4.0', [ 'mustache', '~0.4.0' ] ]
+verbose parsed url { pathname: '~0.4.0', path: '~0.4.0', href: '~0.4.0' }
+verbose addNamed [ 'mustache', '~0.4.0' ]
+verbose addNamed [ null, '>=0.4.0- <0.5.0-' ]
+silly name, range, hasData [ 'mustache', '>=0.4.0- <0.5.0-', false ]
+verbose cache add [ 'socket.io@~0.9.13', null ]
+silly cache add: name, spec, args [ undefined, 'socket.io@~0.9.13', [ 'socket.io@~0.9.13', null ] ]
+verbose parsed url { pathname: 'socket.io@~0.9.13',
+verbose parsed url   path: 'socket.io@~0.9.13',
+verbose parsed url   href: 'socket.io@~0.9.13' }
+silly cache add: name, spec, args [ 'socket.io', '~0.9.13', [ 'socket.io', '~0.9.13' ] ]
+verbose parsed url { pathname: '~0.9.13', path: '~0.9.13', href: '~0.9.13' }
+verbose addNamed [ 'socket.io', '~0.9.13' ]
+verbose addNamed [ null, '>=0.9.13- <0.10.0-' ]
+silly name, range, hasData [ 'socket.io', '>=0.9.13- <0.10.0-', false ]
+verbose cache add [ 'grunt-contrib-jshint@~0.2.0', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'grunt-contrib-jshint@~0.2.0',
+silly cache add: name, spec, args   [ 'grunt-contrib-jshint@~0.2.0', null ] ]
+verbose parsed url { pathname: 'grunt-contrib-jshint@~0.2.0',
+verbose parsed url   path: 'grunt-contrib-jshint@~0.2.0',
+verbose parsed url   href: 'grunt-contrib-jshint@~0.2.0' }
+silly cache add: name, spec, args [ 'grunt-contrib-jshint',
+silly cache add: name, spec, args   '~0.2.0',
+silly cache add: name, spec, args   [ 'grunt-contrib-jshint', '~0.2.0' ] ]
+verbose parsed url { pathname: '~0.2.0', path: '~0.2.0', href: '~0.2.0' }
+verbose addNamed [ 'grunt-contrib-jshint', '~0.2.0' ]
+verbose addNamed [ null, '>=0.2.0- <0.3.0-' ]
+silly name, range, hasData [ 'grunt-contrib-jshint', '>=0.2.0- <0.3.0-', false ]
+verbose cache add [ 'grunt-contrib-cssmin@~0.4.1', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'grunt-contrib-cssmin@~0.4.1',
+silly cache add: name, spec, args   [ 'grunt-contrib-cssmin@~0.4.1', null ] ]
+verbose parsed url { pathname: 'grunt-contrib-cssmin@~0.4.1',
+verbose parsed url   path: 'grunt-contrib-cssmin@~0.4.1',
+verbose parsed url   href: 'grunt-contrib-cssmin@~0.4.1' }
+silly cache add: name, spec, args [ 'grunt-contrib-cssmin',
+silly cache add: name, spec, args   '~0.4.1',
+silly cache add: name, spec, args   [ 'grunt-contrib-cssmin', '~0.4.1' ] ]
+verbose parsed url { pathname: '~0.4.1', path: '~0.4.1', href: '~0.4.1' }
+verbose addNamed [ 'grunt-contrib-cssmin', '~0.4.1' ]
+verbose addNamed [ null, '>=0.4.1- <0.5.0-' ]
+silly name, range, hasData [ 'grunt-contrib-cssmin', '>=0.4.1- <0.5.0-', false ]
+verbose cache add [ 'grunt-contrib-uglify@~0.1.1', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'grunt-contrib-uglify@~0.1.1',
+silly cache add: name, spec, args   [ 'grunt-contrib-uglify@~0.1.1', null ] ]
+verbose parsed url { pathname: 'grunt-contrib-uglify@~0.1.1',
+verbose parsed url   path: 'grunt-contrib-uglify@~0.1.1',
+verbose parsed url   href: 'grunt-contrib-uglify@~0.1.1' }
+silly cache add: name, spec, args [ 'grunt-contrib-uglify',
+silly cache add: name, spec, args   '~0.1.1',
+silly cache add: name, spec, args   [ 'grunt-contrib-uglify', '~0.1.1' ] ]
+verbose parsed url { pathname: '~0.1.1', path: '~0.1.1', href: '~0.1.1' }
+verbose addNamed [ 'grunt-contrib-uglify', '~0.1.1' ]
+verbose addNamed [ null, '>=0.1.1- <0.2.0-' ]
+silly name, range, hasData [ 'grunt-contrib-uglify', '>=0.1.1- <0.2.0-', false ]
+verbose cache add [ 'grunt-contrib-watch@~0.2.0', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'grunt-contrib-watch@~0.2.0',
+silly cache add: name, spec, args   [ 'grunt-contrib-watch@~0.2.0', null ] ]
+verbose parsed url { pathname: 'grunt-contrib-watch@~0.2.0',
+verbose parsed url   path: 'grunt-contrib-watch@~0.2.0',
+verbose parsed url   href: 'grunt-contrib-watch@~0.2.0' }
+silly cache add: name, spec, args [ 'grunt-contrib-watch',
+silly cache add: name, spec, args   '~0.2.0',
+silly cache add: name, spec, args   [ 'grunt-contrib-watch', '~0.2.0' ] ]
+verbose parsed url { pathname: '~0.2.0', path: '~0.2.0', href: '~0.2.0' }
+verbose addNamed [ 'grunt-contrib-watch', '~0.2.0' ]
+verbose addNamed [ null, '>=0.2.0- <0.3.0-' ]
+silly name, range, hasData [ 'grunt-contrib-watch', '>=0.2.0- <0.3.0-', false ]
+verbose cache add [ 'grunt-contrib-sass@~0.2.2', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'grunt-contrib-sass@~0.2.2',
+silly cache add: name, spec, args   [ 'grunt-contrib-sass@~0.2.2', null ] ]
+verbose parsed url { pathname: 'grunt-contrib-sass@~0.2.2',
+verbose parsed url   path: 'grunt-contrib-sass@~0.2.2',
+verbose parsed url   href: 'grunt-contrib-sass@~0.2.2' }
+silly cache add: name, spec, args [ 'grunt-contrib-sass',
+silly cache add: name, spec, args   '~0.2.2',
+silly cache add: name, spec, args   [ 'grunt-contrib-sass', '~0.2.2' ] ]
+verbose parsed url { pathname: '~0.2.2', path: '~0.2.2', href: '~0.2.2' }
+verbose addNamed [ 'grunt-contrib-sass', '~0.2.2' ]
+verbose addNamed [ null, '>=0.2.2- <0.3.0-' ]
+silly name, range, hasData [ 'grunt-contrib-sass', '>=0.2.2- <0.3.0-', false ]
+verbose cache add [ 'grunt-contrib-connect@~0.2.0', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'grunt-contrib-connect@~0.2.0',
+silly cache add: name, spec, args   [ 'grunt-contrib-connect@~0.2.0', null ] ]
+verbose parsed url { pathname: 'grunt-contrib-connect@~0.2.0',
+verbose parsed url   path: 'grunt-contrib-connect@~0.2.0',
+verbose parsed url   href: 'grunt-contrib-connect@~0.2.0' }
+silly cache add: name, spec, args [ 'grunt-contrib-connect',
+silly cache add: name, spec, args   '~0.2.0',
+silly cache add: name, spec, args   [ 'grunt-contrib-connect', '~0.2.0' ] ]
+verbose parsed url { pathname: '~0.2.0', path: '~0.2.0', href: '~0.2.0' }
+verbose addNamed [ 'grunt-contrib-connect', '~0.2.0' ]
+verbose addNamed [ null, '>=0.2.0- <0.3.0-' ]
+silly name, range, hasData [ 'grunt-contrib-connect', '>=0.2.0- <0.3.0-', false ]
+verbose cache add [ 'grunt-zip@~0.7.0', null ]
+silly cache add: name, spec, args [ undefined, 'grunt-zip@~0.7.0', [ 'grunt-zip@~0.7.0', null ] ]
+verbose parsed url { pathname: 'grunt-zip@~0.7.0',
+verbose parsed url   path: 'grunt-zip@~0.7.0',
+verbose parsed url   href: 'grunt-zip@~0.7.0' }
+silly cache add: name, spec, args [ 'grunt-zip', '~0.7.0', [ 'grunt-zip', '~0.7.0' ] ]
+verbose parsed url { pathname: '~0.7.0', path: '~0.7.0', href: '~0.7.0' }
+verbose addNamed [ 'grunt-zip', '~0.7.0' ]
+verbose addNamed [ null, '>=0.7.0- <0.8.0-' ]
+silly name, range, hasData [ 'grunt-zip', '>=0.7.0- <0.8.0-', false ]
+verbose cache add [ 'grunt@~0.4.0', null ]
+silly cache add: name, spec, args [ undefined, 'grunt@~0.4.0', [ 'grunt@~0.4.0', null ] ]
+verbose parsed url { pathname: 'grunt@~0.4.0',
+verbose parsed url   path: 'grunt@~0.4.0',
+verbose parsed url   href: 'grunt@~0.4.0' }
+silly cache add: name, spec, args [ 'grunt', '~0.4.0', [ 'grunt', '~0.4.0' ] ]
+verbose parsed url { pathname: '~0.4.0', path: '~0.4.0', href: '~0.4.0' }
+verbose addNamed [ 'grunt', '~0.4.0' ]
+verbose addNamed [ null, '>=0.4.0- <0.5.0-' ]
+silly name, range, hasData [ 'grunt', '>=0.4.0- <0.5.0-', false ]
+verbose raw, before any munging express
+verbose url resolving [ 'https://registry.npmjs.org/', './express' ]
+verbose url resolved https://registry.npmjs.org/express
+http GET https://registry.npmjs.org/express
+verbose raw, before any munging mustache
+verbose url resolving [ 'https://registry.npmjs.org/', './mustache' ]
+verbose url resolved https://registry.npmjs.org/mustache
+http GET https://registry.npmjs.org/mustache
+verbose raw, before any munging socket.io
+verbose url resolving [ 'https://registry.npmjs.org/', './socket.io' ]
+verbose url resolved https://registry.npmjs.org/socket.io
+http GET https://registry.npmjs.org/socket.io
+verbose raw, before any munging grunt-contrib-jshint
+verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-jshint' ]
+verbose url resolved https://registry.npmjs.org/grunt-contrib-jshint
+http GET https://registry.npmjs.org/grunt-contrib-jshint
+verbose raw, before any munging grunt-contrib-cssmin
+verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-cssmin' ]
+verbose url resolved https://registry.npmjs.org/grunt-contrib-cssmin
+http GET https://registry.npmjs.org/grunt-contrib-cssmin
+verbose raw, before any munging grunt-contrib-uglify
+verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-uglify' ]
+verbose url resolved https://registry.npmjs.org/grunt-contrib-uglify
+http GET https://registry.npmjs.org/grunt-contrib-uglify
+verbose raw, before any munging grunt-contrib-watch
+verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-watch' ]
+verbose url resolved https://registry.npmjs.org/grunt-contrib-watch
+http GET https://registry.npmjs.org/grunt-contrib-watch
+verbose raw, before any munging grunt-contrib-sass
+verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-sass' ]
+verbose url resolved https://registry.npmjs.org/grunt-contrib-sass
+http GET https://registry.npmjs.org/grunt-contrib-sass
+verbose raw, before any munging grunt-contrib-connect
+verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-connect' ]
+verbose url resolved https://registry.npmjs.org/grunt-contrib-connect
+http GET https://registry.npmjs.org/grunt-contrib-connect
+verbose raw, before any munging grunt-zip
+verbose url resolving [ 'https://registry.npmjs.org/', './grunt-zip' ]
+verbose url resolved https://registry.npmjs.org/grunt-zip
+http GET https://registry.npmjs.org/grunt-zip
+verbose raw, before any munging grunt
+verbose url resolving [ 'https://registry.npmjs.org/', './grunt' ]
+verbose url resolved https://registry.npmjs.org/grunt
+http GET https://registry.npmjs.org/grunt
+http 200 https://registry.npmjs.org/underscore
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.3.1 (Erlang OTP/R15B03)',
+silly get cb     etag: '"5B5TFBCUD4EE1HARVYGBG8GFE"',
+silly get cb     date: 'Sat, 28 Sep 2013 10:16:24 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '43793' } ]
+verbose mkdir (expected) error ENOENT, stat '/home/bitardo/.npm'
+verbose mkdir (expected) error ENOENT, stat '/home/bitardo/.npm/underscore'
+verbose mkdir done: /home/bitardo/.npm/underscore 755
+silly name, range, hasData 2 [ 'underscore', '>=1.3.3- <1.4.0-', true ]
+silly versions [ 'underscore',
+silly versions   [ '1.0.3',
+silly versions     '1.0.4',
+silly versions     '1.1.0',
+silly versions     '1.1.1',
+silly versions     '1.1.2',
+silly versions     '1.1.3',
+silly versions     '1.1.4',
+silly versions     '1.1.5',
+silly versions     '1.1.6',
+silly versions     '1.1.7',
+silly versions     '1.2.0',
+silly versions     '1.2.1',
+silly versions     '1.2.2',
+silly versions     '1.2.3',
+silly versions     '1.2.4',
+silly versions     '1.3.0',
+silly versions     '1.3.1',
+silly versions     '1.3.2',
+silly versions     '1.3.3',
+silly versions     '1.4.0',
+silly versions     '1.4.1',
+silly versions     '1.4.2',
+silly versions     '1.4.3',
+silly versions     '1.4.4',
+silly versions     '1.5.0',
+silly versions     '1.5.1',
+silly versions     '1.5.2' ] ]
+verbose bin dist [ '0.6-ares1.9.1-evundefined-openssl1.0.1c-v83.8.9.20-linux-ia32-3.8.0-30-generic',
+verbose bin dist   { shasum: '47ac53683daf832bfa952e1774417da47817ae42',
+verbose bin dist     tarball: 'http://registry.npmjs.org/underscore/-/underscore-1.3.3.tgz' } ]
+verbose addRemoteTarball [ 'https://registry.npmjs.org/underscore/-/underscore-1.3.3.tgz',
+verbose addRemoteTarball   '47ac53683daf832bfa952e1774417da47817ae42' ]
+verbose mkdir (expected) error ENOENT, stat '/tmp/npm-1380363385204'
+verbose mkdir (expected) error ENOENT, stat '/tmp/npm-1380363385204/1380363385204-0.37640370335429907'
+verbose mkdir done: /tmp/npm-1380363385204/1380363385204-0.37640370335429907 755
+verbose fetch to /tmp/npm-1380363385204/1380363385204-0.37640370335429907/tmp.tgz
+http GET https://registry.npmjs.org/underscore/-/underscore-1.3.3.tgz
+http 200 https://registry.npmjs.org/mustache
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.3.1 (Erlang OTP/R15B03)',
+silly get cb     etag: '"372GSTGYWZMQHRYPLBFSALJBS"',
+silly get cb     date: 'Sat, 28 Sep 2013 10:16:24 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '76946' } ]
+verbose mkdir (expected) error ENOENT, stat '/home/bitardo/.npm/mustache'
+verbose mkdir done: /home/bitardo/.npm/mustache 755
+silly name, range, hasData 2 [ 'mustache', '>=0.4.0- <0.5.0-', true ]
+silly versions [ 'mustache',
+silly versions   [ '0.3.1-dev',
+silly versions     '0.4.0',
+silly versions     '0.5.1-dev',
+silly versions     '0.5.2',
+silly versions     '0.6.0',
+silly versions     '0.7.0',
+silly versions     '0.7.1',
+silly versions     '0.7.2' ] ]
+verbose bin dist [ '0.6-ares1.9.1-evundefined-openssl1.0.1c-v83.8.9.20-linux-ia32-3.8.0-30-generic',
+verbose bin dist   { shasum: '49eb3bc60fd41119c50c87aa7067ef63d1592bdd',
+verbose bin dist     tarball: 'http://registry.npmjs.org/mustache/-/mustache-0.4.0.tgz' } ]
+verbose addRemoteTarball [ 'https://registry.npmjs.org/mustache/-/mustache-0.4.0.tgz',
+verbose addRemoteTarball   '49eb3bc60fd41119c50c87aa7067ef63d1592bdd' ]
+verbose mkdir (expected) error ENOENT, stat '/tmp/npm-1380363385204/1380363385338-0.8702448799740523'
+verbose mkdir done: /tmp/npm-1380363385204/1380363385338-0.8702448799740523 755
+verbose fetch to /tmp/npm-1380363385204/1380363385338-0.8702448799740523/tmp.tgz
+http GET https://registry.npmjs.org/mustache/-/mustache-0.4.0.tgz
+http 200 https://registry.npmjs.org/grunt-contrib-cssmin
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.3.1 (Erlang OTP/R15B03)',
+silly get cb     etag: '"D939KDHZYCVULYND5PIM8KLUE"',
+silly get cb     date: 'Sat, 28 Sep 2013 10:16:25 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '39580' } ]
+verbose mkdir (expected) error ENOENT, stat '/home/bitardo/.npm/grunt-contrib-cssmin'
+verbose mkdir done: /home/bitardo/.npm/grunt-contrib-cssmin 755
+silly name, range, hasData 2 [ 'grunt-contrib-cssmin', '>=0.4.1- <0.5.0-', true ]
+silly versions [ 'grunt-contrib-cssmin', [] ]
+ERR! Error: No compatible version found: grunt-contrib-cssmin@'>=0.4.1- <0.5.0-'
+ERR! No valid targets found.
+ERR! Perhaps not compatible with your version of node?
+ERR!     at installTargetsError (/usr/share/npm/lib/cache.js:488:10)
+ERR!     at next_ (/usr/share/npm/lib/cache.js:438:17)
+ERR!     at next (/usr/share/npm/lib/cache.js:415:44)
+ERR!     at /usr/share/npm/lib/cache.js:408:5
+ERR!     at saved (/usr/share/npm/lib/utils/npm-registry-client/get.js:147:7)
+ERR!     at Object.oncomplete (/usr/lib/nodejs/graceful-fs.js:230:7)
+ERR! You may report this log at:
+ERR!     <http://bugs.debian.org/npm>
+ERR! or use
+ERR!     reportbug --attach /home/bitardo/workspace/perso/chroot_presentation/npm-debug.log npm
+ERR! 
+ERR! System Linux 3.8.0-30-generic
+ERR! command "/usr/bin/nodejs" "/usr/bin/npm" "install"
+ERR! cwd /home/bitardo/workspace/perso/chroot_presentation
+ERR! node -v v0.6.19
+ERR! npm -v 1.1.4
+ERR! message No compatible version found: grunt-contrib-cssmin@'>=0.4.1- <0.5.0-'
+ERR! message No valid targets found.
+ERR! message Perhaps not compatible with your version of node?
+verbose exit [ 1, true ]
