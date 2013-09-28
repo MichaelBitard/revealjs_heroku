@@ -3,7 +3,7 @@ var app = express();
 app.use(express.logger());
 
 app.get('/', function(request, response) {
-  req.forward('index.html');
+  request.forward('index.html');
 });
 
 var port = process.env.PORT || 5000;
